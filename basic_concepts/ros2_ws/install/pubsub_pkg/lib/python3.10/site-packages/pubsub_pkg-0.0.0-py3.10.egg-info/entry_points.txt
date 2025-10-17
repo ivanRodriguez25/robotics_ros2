@@ -1,0 +1,4 @@
+[console_scripts]
+number_publisher = pubsub_pkg.publisher:main
+number_subscriber = pubsub_pkg.subscriber:main
+
