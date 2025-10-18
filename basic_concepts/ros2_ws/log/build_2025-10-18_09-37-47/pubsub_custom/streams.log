@@ -1,0 +1,40 @@
+[0.655s] Invoking command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_custom': PYTHONPATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_custom build --build-base /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build install --record /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/install.log --single-version-externally-managed install_data
+[0.831s] running egg_info
+[0.831s] creating ../../build/pubsub_custom/pubsub_custom.egg-info
+[0.833s] writing ../../build/pubsub_custom/pubsub_custom.egg-info/PKG-INFO
+[0.833s] writing dependency_links to ../../build/pubsub_custom/pubsub_custom.egg-info/dependency_links.txt
+[0.834s] writing entry points to ../../build/pubsub_custom/pubsub_custom.egg-info/entry_points.txt
+[0.834s] writing requirements to ../../build/pubsub_custom/pubsub_custom.egg-info/requires.txt
+[0.834s] writing top-level names to ../../build/pubsub_custom/pubsub_custom.egg-info/top_level.txt
+[0.834s] writing manifest file '../../build/pubsub_custom/pubsub_custom.egg-info/SOURCES.txt'
+[0.840s] reading manifest file '../../build/pubsub_custom/pubsub_custom.egg-info/SOURCES.txt'
+[0.840s] writing manifest file '../../build/pubsub_custom/pubsub_custom.egg-info/SOURCES.txt'
+[0.840s] running build
+[0.841s] running build_py
+[0.841s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build
+[0.841s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build/lib
+[0.841s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build/lib/pubsub_custom
+[0.842s] copying pubsub_custom/publisher.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build/lib/pubsub_custom
+[0.842s] copying pubsub_custom/subscriber.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build/lib/pubsub_custom
+[0.842s] copying pubsub_custom/__init__.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build/lib/pubsub_custom
+[0.842s] running install
+[0.842s] running install_lib
+[0.843s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages/pubsub_custom
+[0.843s] copying /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build/lib/pubsub_custom/publisher.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages/pubsub_custom
+[0.844s] copying /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build/lib/pubsub_custom/subscriber.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages/pubsub_custom
+[0.844s] copying /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build/lib/pubsub_custom/__init__.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages/pubsub_custom
+[0.844s] byte-compiling /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages/pubsub_custom/publisher.py to publisher.cpython-310.pyc
+[0.845s] byte-compiling /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages/pubsub_custom/subscriber.py to subscriber.cpython-310.pyc
+[0.846s] byte-compiling /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages/pubsub_custom/__init__.py to __init__.cpython-310.pyc
+[0.846s] running install_data
+[0.846s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/share/ament_index
+[0.847s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/share/ament_index/resource_index
+[0.847s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/share/ament_index/resource_index/packages
+[0.847s] copying resource/pubsub_custom -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/share/ament_index/resource_index/packages
+[0.847s] copying package.xml -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/share/pubsub_custom
+[0.847s] running install_egg_info
+[0.848s] Copying ../../build/pubsub_custom/pubsub_custom.egg-info to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages/pubsub_custom-0.0.0-py3.10.egg-info
+[0.849s] running install_scripts
+[0.866s] Installing publish_status script to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/pubsub_custom
+[0.867s] writing list of installed files to '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/install.log'
+[0.886s] Invoked command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_custom' returned '0': PYTHONPATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_custom build --build-base /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/build install --record /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_custom/install.log --single-version-externally-managed install_data

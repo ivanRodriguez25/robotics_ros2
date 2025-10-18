@@ -1,0 +1,211 @@
+[0.013s] Invoking command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces': CMAKE_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/install/pubsub_pkg:/opt/ros/humble /usr/bin/cmake /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_interfaces -DCMAKE_INSTALL_PREFIX=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces
+[0.021s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.135s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.138s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.904s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.909s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.094s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.095s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.095s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.095s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.110s] -- Found PythonExtra: .so  
+[1.171s] -- Configuring done
+[1.196s] -- Generating done
+[1.204s] -- Build files have been written to: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces
+[1.210s] Invoked command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/install/pubsub_pkg:/opt/ros/humble /usr/bin/cmake /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_interfaces -DCMAKE_INSTALL_PREFIX=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces
+[1.212s] Invoking command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces': CMAKE_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/install/pubsub_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces -- -j12 -l12
+[1.248s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.255s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.265s] [  6%] Built target ament_cmake_python_copy_pubsub_interfaces
+[1.566s] running egg_info
+[1.567s] creating pubsub_interfaces.egg-info
+[1.567s] writing pubsub_interfaces.egg-info/PKG-INFO
+[1.568s] writing dependency_links to pubsub_interfaces.egg-info/dependency_links.txt
+[1.568s] writing top-level names to pubsub_interfaces.egg-info/top_level.txt
+[1.568s] writing manifest file 'pubsub_interfaces.egg-info/SOURCES.txt'
+[1.571s] reading manifest file 'pubsub_interfaces.egg-info/SOURCES.txt'
+[1.573s] writing manifest file 'pubsub_interfaces.egg-info/SOURCES.txt'
+[1.581s] [  6%] Built target pubsub_interfaces__cpp
+[1.592s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.594s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.594s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.602s] [ 19%] [32mBuilding C object CMakeFiles/pubsub_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[1.612s] [ 19%] Built target ament_cmake_python_build_pubsub_interfaces_egg
+[1.727s] [ 22%] [32m[1mLinking C shared library libpubsub_interfaces__rosidl_generator_c.so[0m
+[1.825s] [ 25%] [32mBuilding CXX object CMakeFiles/pubsub_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pubsub_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[1.836s] [ 25%] Built target pubsub_interfaces__rosidl_generator_c
+[1.850s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.851s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.853s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.875s] [ 38%] [32mBuilding CXX object CMakeFiles/pubsub_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pubsub_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[1.888s] [ 41%] [32mBuilding CXX object CMakeFiles/pubsub_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pubsub_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[2.166s] [ 45%] [32mBuilding CXX object CMakeFiles/pubsub_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pubsub_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[2.196s] [ 48%] [32mBuilding C object CMakeFiles/pubsub_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pubsub_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[2.201s] [ 51%] [32mBuilding CXX object CMakeFiles/pubsub_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pubsub_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[2.212s] [ 54%] [32m[1mLinking CXX shared library libpubsub_interfaces__rosidl_typesupport_c.so[0m
+[2.247s] [ 58%] [32m[1mLinking C shared library libpubsub_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.340s] [ 58%] Built target pubsub_interfaces__rosidl_typesupport_c
+[2.341s] [ 61%] [32m[1mLinking CXX shared library libpubsub_interfaces__rosidl_typesupport_cpp.so[0m
+[2.366s] [ 61%] Built target pubsub_interfaces__rosidl_typesupport_introspection_c
+[2.450s] [ 61%] Built target pubsub_interfaces__rosidl_typesupport_cpp
+[2.570s] [ 64%] [32m[1mLinking CXX shared library libpubsub_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.571s] [ 67%] [32m[1mLinking CXX shared library libpubsub_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.620s] [ 70%] [32m[1mLinking CXX shared library libpubsub_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.678s] [ 70%] Built target pubsub_interfaces__rosidl_typesupport_introspection_cpp
+[2.691s] [ 70%] Built target pubsub_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.764s] [ 70%] Built target pubsub_interfaces__rosidl_typesupport_fastrtps_c
+[2.780s] [ 70%] Built target pubsub_interfaces
+[2.796s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.127s] [ 74%] Built target pubsub_interfaces__py
+[3.150s] [ 77%] [32mBuilding C object CMakeFiles/pubsub_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pubsub_interfaces/msg/_hardware_status_s.c.o[0m
+[3.279s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/pubsub_interfaces/libpubsub_interfaces__rosidl_generator_py.so[0m
+[3.365s] [ 80%] Built target pubsub_interfaces__rosidl_generator_py
+[3.382s] [ 83%] [32mBuilding C object CMakeFiles/pubsub_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.383s] [ 87%] [32mBuilding C object CMakeFiles/pubsub_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.386s] [ 90%] [32mBuilding C object CMakeFiles/pubsub_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.467s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.471s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.480s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.523s] [100%] Built target pubsub_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.530s] [100%] Built target pubsub_interfaces__rosidl_typesupport_c__pyext
+[3.550s] [100%] Built target pubsub_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.568s] Invoked command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/install/pubsub_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces -- -j12 -l12
+[3.580s] Invoking command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces': CMAKE_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/install/pubsub_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces
+[3.585s] -- Install configuration: ""
+[3.586s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/ament_index/resource_index/rosidl_interfaces/pubsub_interfaces
+[3.586s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces
+[3.586s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg
+[3.587s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail
+[3.587s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__struct.h
+[3.587s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__functions.c
+[3.587s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__functions.h
+[3.588s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__type_support.h
+[3.588s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/hardware_status.h
+[3.588s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.589s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/environment/library_path.sh
+[3.589s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/environment/library_path.dsv
+[3.590s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_generator_c.so
+[3.590s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_generator_c.so" to ""
+[3.591s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces
+[3.591s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg
+[3.591s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.592s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail
+[3.592s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[3.592s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.592s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.592s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces
+[3.593s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg
+[3.593s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail
+[3.593s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__type_support.c
+[3.593s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[3.593s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.594s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_introspection_c.so
+[3.594s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.594s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_c.so
+[3.594s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_c.so" to ""
+[3.594s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces
+[3.594s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg
+[3.595s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail
+[3.595s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__traits.hpp
+[3.595s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__builder.hpp
+[3.596s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__struct.hpp
+[3.596s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__type_support.hpp
+[3.596s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.596s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/hardware_status.hpp
+[3.597s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces
+[3.597s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg
+[3.597s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.597s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail
+[3.597s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/dds_fastrtps
+[3.598s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[3.598s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.599s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.599s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces
+[3.599s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg
+[3.600s] -- Up-to-date: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail
+[3.600s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__type_support.cpp
+[3.600s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/include/pubsub_interfaces/pubsub_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[3.600s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.601s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.601s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_cpp.so
+[3.601s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.601s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/environment/pythonpath.sh
+[3.601s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/environment/pythonpath.dsv
+[3.602s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces-0.0.0-py3.10.egg-info
+[3.602s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.602s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.603s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.603s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.603s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_c.c
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/libpubsub_interfaces__rosidl_generator_py.so
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/msg
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/msg/_hardware_status.py
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/msg/_hardware_status_s.c
+[3.604s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/msg/__init__.py
+[3.605s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.605s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/__init__.py
+[3.649s] Listing '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces'...
+[3.649s] Compiling '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/__init__.py'...
+[3.649s] Listing '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/msg'...
+[3.650s] Compiling '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/msg/__init__.py'...
+[3.650s] Compiling '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/msg/_hardware_status.py'...
+[3.656s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.657s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.657s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.658s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.658s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.658s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages/pubsub_interfaces/pubsub_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.659s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_generator_py.so
+[3.659s] -- Set runtime path of "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib/libpubsub_interfaces__rosidl_generator_py.so" to ""
+[3.659s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/msg/HardwareStatus.idl
+[3.660s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/msg/HardwareStatus.msg
+[3.661s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/ament_index/resource_index/package_run_dependencies/pubsub_interfaces
+[3.661s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/ament_index/resource_index/parent_prefix_path/pubsub_interfaces
+[3.662s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/environment/ament_prefix_path.sh
+[3.662s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/environment/ament_prefix_path.dsv
+[3.663s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/environment/path.sh
+[3.663s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/environment/path.dsv
+[3.663s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/local_setup.bash
+[3.663s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/local_setup.sh
+[3.663s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/local_setup.zsh
+[3.664s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/local_setup.dsv
+[3.664s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/package.dsv
+[3.664s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/ament_index/resource_index/packages/pubsub_interfaces
+[3.664s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/export_pubsub_interfaces__rosidl_generator_cExport.cmake
+[3.665s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/export_pubsub_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.665s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/export_pubsub_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.665s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/export_pubsub_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.666s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.666s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.666s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfaces__rosidl_typesupport_cExport.cmake
+[3.666s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.666s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/export_pubsub_interfaces__rosidl_generator_cppExport.cmake
+[3.667s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/export_pubsub_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.667s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/export_pubsub_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.667s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.668s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.668s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfaces__rosidl_typesupport_cppExport.cmake
+[3.668s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.669s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/export_pubsub_interfaces__rosidl_generator_pyExport.cmake
+[3.669s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/export_pubsub_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.669s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.669s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.669s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.669s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.669s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.670s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.670s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.670s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfacesConfig.cmake
+[3.670s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/cmake/pubsub_interfacesConfig-version.cmake
+[3.670s] -- Installing: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/share/pubsub_interfaces/package.xml
+[3.672s] Invoked command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg:/home/ivan/personal/robotics_ros2/basic_concepts/install/pubsub_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces

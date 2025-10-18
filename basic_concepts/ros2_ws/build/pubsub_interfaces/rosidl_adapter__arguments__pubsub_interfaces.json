@@ -1,0 +1,6 @@
+{
+  "package_name": "pubsub_interfaces",
+  "non_idl_tuples": [
+    "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_interfaces:msg/HardwareStatus.msg"
+  ]
+}
