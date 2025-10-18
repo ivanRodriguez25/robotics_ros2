@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/msg/__init__.py" "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/msg/_hardware_status.py" "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/msg/_hardware_status_s.c" "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose.py" "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose_s.c" "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

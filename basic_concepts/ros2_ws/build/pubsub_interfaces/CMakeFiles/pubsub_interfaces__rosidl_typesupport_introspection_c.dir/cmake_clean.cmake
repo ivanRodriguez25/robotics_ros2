@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pubsub_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pubsub_interfaces/msg/detail/hardware_status__type_support.c.o"
   "CMakeFiles/pubsub_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pubsub_interfaces/msg/detail/hardware_status__type_support.c.o.d"
+  "CMakeFiles/pubsub_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pubsub_interfaces/msg/detail/turtle_pose__type_support.c.o"
+  "CMakeFiles/pubsub_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pubsub_interfaces/msg/detail/turtle_pose__type_support.c.o.d"
   "libpubsub_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libpubsub_interfaces__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/pubsub_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/pubsub_interfaces/msg/detail/hardware_status__type_support.c"
+  "rosidl_typesupport_introspection_c/pubsub_interfaces/msg/detail/turtle_pose__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pubsub_interfaces/msg/detail/turtle_pose__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -71,6 +71,11 @@ CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/de
 CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__struct.hpp
 CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__traits.hpp
 CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__type_support.hpp
+CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/turtle_pose.hpp
+CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__builder.hpp
+CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__struct.hpp
+CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__traits.hpp
+CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__type_support.hpp
 CMakeFiles/pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp: /opt/ros/humble/
 rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp: rosidl_adapter/pubsub_interfaces/msg/HardwareStatus.idl
+rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp: rosidl_adapter/pubsub_interfaces/msg/TurtlePose.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -104,12 +110,32 @@ rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__traits.hpp: r
 rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__type_support.hpp: rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__type_support.hpp
 
+rosidl_generator_cpp/pubsub_interfaces/msg/turtle_pose.hpp: rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pubsub_interfaces/msg/turtle_pose.hpp
+
+rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__builder.hpp: rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__builder.hpp
+
+rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__struct.hpp: rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__struct.hpp
+
+rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__traits.hpp: rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__traits.hpp
+
+rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__type_support.hpp: rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__type_support.hpp
+
 pubsub_interfaces__cpp: CMakeFiles/pubsub_interfaces__cpp
 pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__builder.hpp
 pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__struct.hpp
 pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__traits.hpp
 pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/hardware_status__type_support.hpp
+pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__builder.hpp
+pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__struct.hpp
+pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__traits.hpp
+pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/detail/turtle_pose__type_support.hpp
 pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/hardware_status.hpp
+pubsub_interfaces__cpp: rosidl_generator_cpp/pubsub_interfaces/msg/turtle_pose.hpp
 pubsub_interfaces__cpp: CMakeFiles/pubsub_interfaces__cpp.dir/build.make
 .PHONY : pubsub_interfaces__cpp
 

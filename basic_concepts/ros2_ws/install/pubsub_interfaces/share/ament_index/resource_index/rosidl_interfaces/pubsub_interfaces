@@ -1,2 +1,4 @@
 msg/HardwareStatus.idl
 msg/HardwareStatus.msg
+msg/TurtlePose.idl
+msg/TurtlePose.msg

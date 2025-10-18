@@ -1,13 +1,20 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pubsub_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__functions.c.o"
   "CMakeFiles/pubsub_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__functions.c.o.d"
+  "CMakeFiles/pubsub_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pubsub_interfaces/msg/detail/turtle_pose__functions.c.o"
+  "CMakeFiles/pubsub_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pubsub_interfaces/msg/detail/turtle_pose__functions.c.o.d"
   "libpubsub_interfaces__rosidl_generator_c.pdb"
   "libpubsub_interfaces__rosidl_generator_c.so"
   "rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__functions.c"
   "rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__functions.h"
   "rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__struct.h"
   "rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__type_support.h"
+  "rosidl_generator_c/pubsub_interfaces/msg/detail/turtle_pose__functions.c"
+  "rosidl_generator_c/pubsub_interfaces/msg/detail/turtle_pose__functions.h"
+  "rosidl_generator_c/pubsub_interfaces/msg/detail/turtle_pose__struct.h"
+  "rosidl_generator_c/pubsub_interfaces/msg/detail/turtle_pose__type_support.h"
   "rosidl_generator_c/pubsub_interfaces/msg/hardware_status.h"
+  "rosidl_generator_c/pubsub_interfaces/msg/turtle_pose.h"
 )
 
 # Per-language clean rules from dependency scanning.

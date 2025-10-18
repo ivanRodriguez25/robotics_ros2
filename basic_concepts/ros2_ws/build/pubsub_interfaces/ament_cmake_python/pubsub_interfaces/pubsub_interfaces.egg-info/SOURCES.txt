@@ -4,3 +4,6 @@ pubsub_interfaces.egg-info/PKG-INFO
 pubsub_interfaces.egg-info/SOURCES.txt
 pubsub_interfaces.egg-info/dependency_links.txt
 pubsub_interfaces.egg-info/top_level.txt
+pubsub_interfaces/msg/__init__.py
+pubsub_interfaces/msg/_hardware_status.py
+pubsub_interfaces/msg/_turtle_pose.py

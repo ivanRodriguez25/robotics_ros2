@@ -360,7 +360,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pubsub_interfaces/msg" TYPE FILE FILES "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_adapter/pubsub_interfaces/msg/TurtlePose.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pubsub_interfaces/msg" TYPE FILE FILES "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_interfaces/msg/HardwareStatus.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pubsub_interfaces/msg" TYPE FILE FILES "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_interfaces/msg/TurtlePose.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

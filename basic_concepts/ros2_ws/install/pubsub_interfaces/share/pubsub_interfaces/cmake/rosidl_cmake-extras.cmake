@@ -1,4 +1,4 @@
 # generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
 
-set(pubsub_interfaces_IDL_FILES "msg/HardwareStatus.idl")
-set(pubsub_interfaces_INTERFACE_FILES "msg/HardwareStatus.msg")
+set(pubsub_interfaces_IDL_FILES "msg/HardwareStatus.idl;msg/TurtlePose.idl")
+set(pubsub_interfaces_INTERFACE_FILES "msg/HardwareStatus.msg;msg/TurtlePose.msg")

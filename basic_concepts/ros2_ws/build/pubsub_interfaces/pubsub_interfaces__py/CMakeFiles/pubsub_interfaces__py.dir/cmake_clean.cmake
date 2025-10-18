@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/pubsub_interfaces/msg/__init__.py"
   "../rosidl_generator_py/pubsub_interfaces/msg/_hardware_status.py"
   "../rosidl_generator_py/pubsub_interfaces/msg/_hardware_status_s.c"
+  "../rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose.py"
+  "../rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose_s.c"
   "CMakeFiles/pubsub_interfaces__py"
 )
 

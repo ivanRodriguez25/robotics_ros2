@@ -67,6 +67,7 @@ include CMakeFiles/pubsub_interfaces.dir/compiler_depend.make
 include CMakeFiles/pubsub_interfaces.dir/progress.make
 
 CMakeFiles/pubsub_interfaces: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_interfaces/msg/HardwareStatus.msg
+CMakeFiles/pubsub_interfaces: /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_interfaces/msg/TurtlePose.msg
 
 pubsub_interfaces: CMakeFiles/pubsub_interfaces
 pubsub_interfaces: CMakeFiles/pubsub_interfaces.dir/build.make

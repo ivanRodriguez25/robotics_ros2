@@ -1,0 +1,22 @@
+[1.183s] Invoking command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_pkg': PYTHONPATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_pkg build --build-base /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_pkg/build install --record /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_pkg/install.log --single-version-externally-managed install_data
+[1.535s] running egg_info
+[1.537s] writing ../../build/pubsub_pkg/pubsub_pkg.egg-info/PKG-INFO
+[1.537s] writing dependency_links to ../../build/pubsub_pkg/pubsub_pkg.egg-info/dependency_links.txt
+[1.538s] writing entry points to ../../build/pubsub_pkg/pubsub_pkg.egg-info/entry_points.txt
+[1.538s] writing requirements to ../../build/pubsub_pkg/pubsub_pkg.egg-info/requires.txt
+[1.538s] writing top-level names to ../../build/pubsub_pkg/pubsub_pkg.egg-info/top_level.txt
+[1.541s] reading manifest file '../../build/pubsub_pkg/pubsub_pkg.egg-info/SOURCES.txt'
+[1.542s] writing manifest file '../../build/pubsub_pkg/pubsub_pkg.egg-info/SOURCES.txt'
+[1.542s] running build
+[1.543s] running build_py
+[1.544s] running install
+[1.545s] running install_lib
+[1.546s] running install_data
+[1.547s] running install_egg_info
+[1.548s] removing '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg/lib/python3.10/site-packages/pubsub_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.548s] Copying ../../build/pubsub_pkg/pubsub_pkg.egg-info to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg/lib/python3.10/site-packages/pubsub_pkg-0.0.0-py3.10.egg-info
+[1.549s] running install_scripts
+[1.580s] Installing number_publisher script to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg/lib/pubsub_pkg
+[1.581s] Installing number_subscriber script to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg/lib/pubsub_pkg
+[1.581s] writing list of installed files to '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_pkg/install.log'
+[1.634s] Invoked command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_pkg' returned '0': PYTHONPATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_pkg build --build-base /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_pkg/build install --record /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_pkg/install.log --single-version-externally-managed install_data

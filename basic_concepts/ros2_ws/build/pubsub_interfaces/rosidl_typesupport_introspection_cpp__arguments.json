@@ -3,7 +3,8 @@
   "output_dir": "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_typesupport_introspection_cpp/pubsub_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_adapter/pubsub_interfaces:msg/HardwareStatus.idl"
+    "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_adapter/pubsub_interfaces:msg/HardwareStatus.idl",
+    "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_adapter/pubsub_interfaces:msg/TurtlePose.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +15,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_adapter/pubsub_interfaces/msg/HardwareStatus.idl"
+    "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_adapter/pubsub_interfaces/msg/HardwareStatus.idl",
+    "/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_adapter/pubsub_interfaces/msg/TurtlePose.idl"
   ]
 }

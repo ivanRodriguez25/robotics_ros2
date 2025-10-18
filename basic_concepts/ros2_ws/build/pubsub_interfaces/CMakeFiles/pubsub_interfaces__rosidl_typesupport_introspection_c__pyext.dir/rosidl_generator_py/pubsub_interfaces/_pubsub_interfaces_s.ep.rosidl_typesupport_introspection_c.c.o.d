@@ -206,4 +206,7 @@ CMakeFiles/pubsub_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosi
  /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__functions.h
+ /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_c/pubsub_interfaces/msg/detail/hardware_status__functions.h \
+ /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_c/pubsub_interfaces/msg/detail/turtle_pose__type_support.h \
+ /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_c/pubsub_interfaces/msg/detail/turtle_pose__struct.h \
+ /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_c/pubsub_interfaces/msg/detail/turtle_pose__functions.h

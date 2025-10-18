@@ -26,9 +26,7 @@ class ImageSubscriberNode(Node):
         self.counter += 1
         
         image_ = self.bridge.imgmsg_to_cv2(msg, desired_encoding='rgb8')
-        #image_raw = self.bridge.imgmsg_to_cv2(msg, desired_encoding='rgb8')
-        #image_ = image_raw.copy()
-
+        
         # Add hour to image
         text = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 

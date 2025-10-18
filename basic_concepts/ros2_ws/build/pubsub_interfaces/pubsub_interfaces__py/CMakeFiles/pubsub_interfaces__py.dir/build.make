@@ -70,8 +70,10 @@ pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py: rosidl_generator_py/pubs
 pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_c.c
 pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/_hardware_status.py
+pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose.py
 pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/__init__.py
 pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/_hardware_status_s.c
+pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose_s.c
 
 rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +89,7 @@ rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pubsub_interfaces/msg/HardwareStatus.idl
+rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pubsub_interfaces/msg/TurtlePose.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/pubsub_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +102,17 @@ rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport
 rosidl_generator_py/pubsub_interfaces/msg/_hardware_status.py: rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pubsub_interfaces/msg/_hardware_status.py
 
+rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose.py: rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose.py
+
 rosidl_generator_py/pubsub_interfaces/msg/__init__.py: rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pubsub_interfaces/msg/__init__.py
 
 rosidl_generator_py/pubsub_interfaces/msg/_hardware_status_s.c: rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pubsub_interfaces/msg/_hardware_status_s.c
+
+rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose_s.c: rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose_s.c
 
 pubsub_interfaces__py: pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py
 pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_s.ep.rosidl_typesupport_c.c
@@ -112,6 +121,8 @@ pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/_pubsub_interfaces_
 pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/__init__.py
 pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/_hardware_status.py
 pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/_hardware_status_s.c
+pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose.py
+pubsub_interfaces__py: rosidl_generator_py/pubsub_interfaces/msg/_turtle_pose_s.c
 pubsub_interfaces__py: pubsub_interfaces__py/CMakeFiles/pubsub_interfaces__py.dir/build.make
 .PHONY : pubsub_interfaces__py
 

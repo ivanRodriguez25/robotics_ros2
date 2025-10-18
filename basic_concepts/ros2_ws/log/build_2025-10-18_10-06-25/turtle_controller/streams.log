@@ -1,0 +1,37 @@
+[1.802s] Invoking command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/turtle_controller': AMENT_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces LD_LIBRARY_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/build install --record /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
+[2.112s] running egg_info
+[2.113s] creating ../../build/turtle_controller/turtle_controller.egg-info
+[2.115s] writing ../../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[2.116s] writing dependency_links to ../../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[2.117s] writing entry points to ../../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+[2.119s] writing requirements to ../../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[2.120s] writing top-level names to ../../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[2.121s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[2.121s] reading manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[2.121s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[2.121s] running build
+[2.122s] running build_py
+[2.122s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/build
+[2.122s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/build/lib
+[2.123s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[2.123s] copying turtle_controller/subscriber.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[2.123s] copying turtle_controller/__init__.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[2.124s] running install
+[2.125s] running install_lib
+[2.126s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[2.126s] copying /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/build/lib/turtle_controller/subscriber.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[2.126s] copying /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/build/lib/turtle_controller/__init__.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[2.127s] byte-compiling /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/subscriber.py to subscriber.cpython-310.pyc
+[2.127s] byte-compiling /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__init__.py to __init__.cpython-310.pyc
+[2.127s] running install_data
+[2.127s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/share/ament_index
+[2.128s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/share/ament_index/resource_index
+[2.128s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[2.128s] copying resource/turtle_controller -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[2.128s] copying package.xml -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/share/turtle_controller
+[2.128s] running install_egg_info
+[2.129s] Copying ../../build/turtle_controller/turtle_controller.egg-info to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller-0.0.0-py3.10.egg-info
+[2.129s] running install_scripts
+[2.155s] Installing turtle_controller script to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/lib/turtle_controller
+[2.156s] writing list of installed files to '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/install.log'
+[2.186s] Invoked command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/turtle_controller' returned '0': AMENT_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces LD_LIBRARY_PATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/build install --record /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
