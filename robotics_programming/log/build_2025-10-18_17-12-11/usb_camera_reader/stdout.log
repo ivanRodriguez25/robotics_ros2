@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing usb_camera_reader.egg-info/PKG-INFO
+writing dependency_links to usb_camera_reader.egg-info/dependency_links.txt
+writing entry points to usb_camera_reader.egg-info/entry_points.txt
+writing requirements to usb_camera_reader.egg-info/requires.txt
+writing top-level names to usb_camera_reader.egg-info/top_level.txt
+reading manifest file 'usb_camera_reader.egg-info/SOURCES.txt'
+writing manifest file 'usb_camera_reader.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_camera_reader/lib/python3.10/site-packages/usb-camera-reader.egg-link (link to .)
+Installing camera_publisher script to /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_camera_reader/lib/usb_camera_reader
+
+Installed /home/ivan/personal/robotics_ros2/robotics_programming/build/usb_camera_reader
+running symlink_data
+symbolically linking /home/ivan/personal/robotics_ros2/robotics_programming/build/usb_camera_reader/resource/usb_camera_reader -> /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_camera_reader/share/ament_index/resource_index/packages
+symbolically linking /home/ivan/personal/robotics_ros2/robotics_programming/build/usb_camera_reader/package.xml -> /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_camera_reader/share/usb_camera_reader

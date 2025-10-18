@@ -46,7 +46,7 @@ class TurtleControl(Node):
         vel_cmd = Twist()
 
         vel_cmd.linear.x = 0.25
-        vel_cmd.linear.y = 0.25
+        #vel_cmd.linear.y = 0.25
         vel_cmd.angular.z = 0.15
         
         self.control_publisher.publish(vel_cmd)

@@ -1,0 +1,48 @@
+[0.014s] Invoking command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ivan/personal/robotics_ros2/robotics_programming/src/usb_cam_launch -DCMAKE_INSTALL_PREFIX=/home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.608s] -- The CXX compiler identification is GNU 11.4.0
+[0.813s] -- Detecting C compiler ABI info
+[0.940s] -- Detecting C compiler ABI info - done
+[0.945s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.945s] -- Detecting C compile features
+[0.946s] -- Detecting C compile features - done
+[0.950s] -- Detecting CXX compiler ABI info
+[1.055s] -- Detecting CXX compiler ABI info - done
+[1.061s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.061s] -- Detecting CXX compile features
+[1.061s] -- Detecting CXX compile features - done
+[1.074s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.194s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.304s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.400s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.401s] -- Added test 'lint_cmake' to check CMake code style
+[1.402s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.404s] -- Added test 'xmllint' to check XML markup files
+[1.407s] -- Configuring done
+[1.409s] -- Generating done
+[1.412s] -- Build files have been written to: /home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch
+[1.415s] Invoked command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ivan/personal/robotics_ros2/robotics_programming/src/usb_cam_launch -DCMAKE_INSTALL_PREFIX=/home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch
+[1.418s] Invoking command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch -- -j12 -l12
+[1.453s] Invoked command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch -- -j12 -l12
+[1.460s] Invoking command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch
+[1.465s] -- Install configuration: ""
+[1.465s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/launch
+[1.466s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/launch/usb_cam_launch.py
+[1.466s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/config
+[1.466s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/config/cam_parameters.yaml
+[1.466s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/ament_index/resource_index/package_run_dependencies/usb_cam_launch
+[1.466s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/ament_index/resource_index/parent_prefix_path/usb_cam_launch
+[1.466s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/environment/ament_prefix_path.sh
+[1.466s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/environment/ament_prefix_path.dsv
+[1.466s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/environment/path.sh
+[1.467s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/environment/path.dsv
+[1.467s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/local_setup.bash
+[1.467s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/local_setup.sh
+[1.467s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/local_setup.zsh
+[1.467s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/local_setup.dsv
+[1.468s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/package.dsv
+[1.468s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/ament_index/resource_index/packages/usb_cam_launch
+[1.468s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/cmake/usb_cam_launchConfig.cmake
+[1.468s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/cmake/usb_cam_launchConfig-version.cmake
+[1.468s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/usb_cam_launch/share/usb_cam_launch/package.xml
+[1.470s] Invoked command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch

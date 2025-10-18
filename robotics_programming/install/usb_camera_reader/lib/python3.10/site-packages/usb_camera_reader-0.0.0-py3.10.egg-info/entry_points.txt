@@ -1,0 +1,3 @@
+[console_scripts]
+camera_publisher = usb_camera_reader.camera_publisher:main
+

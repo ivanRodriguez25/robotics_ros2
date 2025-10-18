@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    camera_name: 'camera'
+    image_width: 640
+    image_height: 480
+    framerate: 120.0
+    pixel_format: 'mjpeg2rgb'
+    io_method: 'mmap'
+    video_device: '/dev/video0'

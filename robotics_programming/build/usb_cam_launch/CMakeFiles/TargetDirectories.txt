@@ -1,0 +1,9 @@
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/CMakeFiles/uninstall.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/CMakeFiles/usb_cam_launch_uninstall.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/CMakeFiles/test.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/CMakeFiles/edit_cache.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/CMakeFiles/rebuild_cache.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/CMakeFiles/list_install_components.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/CMakeFiles/install.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/CMakeFiles/install/local.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/CMakeFiles/install/strip.dir

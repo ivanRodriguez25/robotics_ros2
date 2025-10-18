@@ -1,0 +1,1 @@
+/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/ament_cmake_environment_hooks/local_setup.sh
