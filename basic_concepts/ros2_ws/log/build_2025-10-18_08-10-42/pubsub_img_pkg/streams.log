@@ -1,0 +1,41 @@
+[0.641s] Invoking command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_img_pkg': PYTHONPATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_img_pkg build --build-base /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build install --record /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/install.log --single-version-externally-managed install_data
+[0.845s] running egg_info
+[0.846s] creating ../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info
+[0.846s] writing ../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info/PKG-INFO
+[0.846s] writing dependency_links to ../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info/dependency_links.txt
+[0.846s] writing entry points to ../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info/entry_points.txt
+[0.846s] writing requirements to ../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info/requires.txt
+[0.847s] writing top-level names to ../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info/top_level.txt
+[0.847s] writing manifest file '../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info/SOURCES.txt'
+[0.848s] reading manifest file '../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info/SOURCES.txt'
+[0.849s] writing manifest file '../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info/SOURCES.txt'
+[0.849s] running build
+[0.849s] running build_py
+[0.849s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build
+[0.849s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build/lib
+[0.850s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build/lib/pubsub_img_pkg
+[0.850s] copying pubsub_img_pkg/publisher.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build/lib/pubsub_img_pkg
+[0.850s] copying pubsub_img_pkg/subscriber.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build/lib/pubsub_img_pkg
+[0.850s] copying pubsub_img_pkg/__init__.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build/lib/pubsub_img_pkg
+[0.850s] running install
+[0.850s] running install_lib
+[0.851s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages/pubsub_img_pkg
+[0.851s] copying /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build/lib/pubsub_img_pkg/publisher.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages/pubsub_img_pkg
+[0.851s] copying /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build/lib/pubsub_img_pkg/subscriber.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages/pubsub_img_pkg
+[0.852s] copying /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build/lib/pubsub_img_pkg/__init__.py -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages/pubsub_img_pkg
+[0.852s] byte-compiling /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages/pubsub_img_pkg/publisher.py to publisher.cpython-310.pyc
+[0.853s] byte-compiling /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages/pubsub_img_pkg/subscriber.py to subscriber.cpython-310.pyc
+[0.854s] byte-compiling /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages/pubsub_img_pkg/__init__.py to __init__.cpython-310.pyc
+[0.854s] running install_data
+[0.854s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/share/ament_index
+[0.854s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/share/ament_index/resource_index
+[0.854s] creating /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/share/ament_index/resource_index/packages
+[0.854s] copying resource/pubsub_img_pkg -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/share/ament_index/resource_index/packages
+[0.855s] copying package.xml -> /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/share/pubsub_img_pkg
+[0.855s] running install_egg_info
+[0.856s] Copying ../../build/pubsub_img_pkg/pubsub_img_pkg.egg-info to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages/pubsub_img_pkg-0.0.0-py3.10.egg-info
+[0.856s] running install_scripts
+[0.873s] Installing image_publisher script to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/pubsub_img_pkg
+[0.874s] Installing image_subscruber script to /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/pubsub_img_pkg
+[0.874s] writing list of installed files to '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/install.log'
+[0.892s] Invoked command in '/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/src/pubsub_img_pkg' returned '0': PYTHONPATH=/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/install/pubsub_img_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_img_pkg build --build-base /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/build install --record /home/ivan/personal/robotics_ros2/basic_concepts/ros2_ws/build/pubsub_img_pkg/install.log --single-version-externally-managed install_data
