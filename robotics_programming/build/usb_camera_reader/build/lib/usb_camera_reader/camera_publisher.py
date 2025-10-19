@@ -103,7 +103,7 @@ class CameraPublisher(Node):
             height, width = self.frame.shape[:2]
             new_size = (width // 3, height // 3)
             resized_frame = cv2.resize(self.frame, new_size)
-            gray_frame = cv2.cvtColor(resized_frame, cv2.COLOR_BGR2GRAY)
+            gray_frame = cv2.cvtColor(resized_frame, cv2.COLOR_BGR2RGB)
 
             if gray_frame is not None:
                 cv2.imshow('frame', gray_frame)
