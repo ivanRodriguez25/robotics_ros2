@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

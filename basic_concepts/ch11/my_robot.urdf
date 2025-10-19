@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<robot name="delta_robot">
+
+  <!-- === Materials === -->
+  <material name="green">
+    <color rgba="0 0.6 0 1"/>
+  </material>
+  <material name="metal">
+    <color rgba="0.7 0.7 0.7 1"/>
+  </material>
+  <material name="red">
+    <color rgba="0.8 0.1 0.1 1"/>
+  </material>
+
+  <!-- === Base platform === -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.4" length="0.1"/>
+      </geometry>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <material name="red"/>
+    </visual>
+  </link>
+
+  <!-- === Arms part 1 === -->
+  <link name="arm1_1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="1.0"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <material name="metal"/>
+    </visual>
+  </link>
+
+  <link name="arm2_1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="1.0"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <material name="green"/>
+    </visual>
+  </link>
+
+  <link name="arm3_1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.03" length="1.0"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <material name="metal"/>
+    </visual>
+  </link>
+
+  <!-- === Arms part 2 === -->
+  <link name="arm1_2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="1.0"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <material name="metal"/>
+    </visual>
+  </link>
+
+  <link name="arm2_2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="1.0"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <material name="green"/>
+    </visual>
+  </link>
+
+  <link name="arm3_2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="1.0"/>
+      </geometry>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <material name="metal"/>
+    </visual>
+  </link>
+
+  <!-- === Links cortos intermedios hacia plataforma === -->
+  <link name="arm1_connector"/>
+  <link name="arm2_connector"/>
+  <link name="arm3_connector"/>
+
+  <!-- === Plataforma final === -->
+  <link name="platform">
+    <visual>
+      <geometry>
+        <box size="0.2 0.2 0.02"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="red"/>
+    </visual>
+  </link>
+
+  <!-- === Joints from base === -->
+
+  <!-- Arm 1 base -->
+  <joint name="joint_base_arm1" type="revolute">
+    <parent link="base_link"/>
+    <child link="arm1_1"/>
+    <origin xyz="0 -0.25 0.1" rpy="0.7 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-0.5" upper="0.5" effort="100" velocity="1"/>
+  </joint>
+
+  <!-- Arm 2 base (120°) -->
+  <joint name="joint_base_arm2" type="revolute">
+    <parent link="base_link"/>
+    <child link="arm2_1"/>
+    <origin xyz="0.25 0.25 0.1" rpy="0.7 0 2.094"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-0.5" upper="0.5" effort="100" velocity="1"/>
+  </joint>
+
+  <!-- Arm 3 base (240°) -->
+  <joint name="joint_base_arm3" type="revolute">
+    <parent link="base_link"/>
+    <child link="arm3_1"/>
+    <origin xyz="-0.25 0.25 0.1" rpy="0.7 0 4.188"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-0.5" upper="0.5" effort="100" velocity="1"/>
+  </joint>
+
+  <!-- === Joints connecting arm segments === -->
+
+  <!-- Arm 1 upper joint -->
+  <joint name="joint_arm1_1_to_arm1_2" type="revolute">
+    <parent link="arm1_1"/>
+    <child link="arm1_2"/>
+    <origin xyz="0 0 1.0" rpy="-1.4 0 0"/> <!-- at tip of arm1_1 -->
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.5" upper="0.75" effort="100" velocity="1"/>
+  </joint>
+
+  <!-- Arm 2 upper joint -->
+  <joint name="joint_arm2_1_to_arm2_2" type="revolute">
+    <parent link="arm2_1"/>
+    <child link="arm2_2"/>
+    <origin xyz="0 0 1.0" rpy="-1.4 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.5" upper="0.75" effort="100" velocity="1"/>
+  </joint>
+
+  <!-- Arm 3 upper joint -->
+  <joint name="joint_arm3_1_to_arm3_2" type="revolute">
+    <parent link="arm3_1"/>
+    <child link="arm3_2"/>
+    <origin xyz="0 0 1.0" rpy="-1.4 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.5" upper="0.75" effort="100" velocity="1"/>
+  </joint>
+
+  <!-- === Joints segundo segmento → conectores === -->
+  <joint name="joint_arm1_2_to_connector" type="fixed">
+    <parent link="arm1_2"/>
+    <child link="arm1_connector"/>
+    <origin xyz="0 0 1.0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_arm2_2_to_connector" type="fixed">
+    <parent link="arm2_2"/>
+    <child link="arm2_connector"/>
+    <origin xyz="0 0 1.0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="joint_arm3_2_to_connector" type="fixed">
+    <parent link="arm3_2"/>
+    <child link="arm3_connector"/>
+    <origin xyz="0 0 1.0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- === Joints conectores → plataforma final === -->
+  <joint name="connector1_to_platform" type="fixed">
+    <parent link="arm1_connector"/>
+    <child link="platform"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="connector2_to_platform" type="fixed">
+    <parent link="arm2_connector"/>
+    <child link="platform"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="connector3_to_platform" type="fixed">
+    <parent link="arm3_connector"/>
+    <child link="platform"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  
+</robot>

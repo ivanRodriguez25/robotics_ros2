@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating nav2_mobile_robot.egg-info
+writing nav2_mobile_robot.egg-info/PKG-INFO
+writing dependency_links to nav2_mobile_robot.egg-info/dependency_links.txt
+writing entry points to nav2_mobile_robot.egg-info/entry_points.txt
+writing requirements to nav2_mobile_robot.egg-info/requires.txt
+writing top-level names to nav2_mobile_robot.egg-info/top_level.txt
+writing manifest file 'nav2_mobile_robot.egg-info/SOURCES.txt'
+reading manifest file 'nav2_mobile_robot.egg-info/SOURCES.txt'
+writing manifest file 'nav2_mobile_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/lib/python3.10/site-packages/nav2-mobile-robot.egg-link (link to .)
+
+Installed /home/ivan/personal/robotics_ros2/robotics_programming/build/nav2_mobile_robot
+running symlink_data
+creating /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/ament_index
+creating /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/ament_index/resource_index
+creating /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/ament_index/resource_index/packages
+symbolically linking /home/ivan/personal/robotics_ros2/robotics_programming/build/nav2_mobile_robot/resource/nav2_mobile_robot -> /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/ament_index/resource_index/packages
+symbolically linking /home/ivan/personal/robotics_ros2/robotics_programming/build/nav2_mobile_robot/package.xml -> /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/nav2_mobile_robot
+creating /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/nav2_mobile_robot/urdf
+symbolically linking /home/ivan/personal/robotics_ros2/robotics_programming/build/nav2_mobile_robot/urdf/nav2_mobile_robot.xacro -> /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/nav2_mobile_robot/urdf
+symbolically linking /home/ivan/personal/robotics_ros2/robotics_programming/build/nav2_mobile_robot/urdf/nav2_mobile_robot_macro.xacro -> /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/nav2_mobile_robot/urdf
+creating /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/nav2_mobile_robot/launch
+symbolically linking /home/ivan/personal/robotics_ros2/robotics_programming/build/nav2_mobile_robot/launch/display.launch.py -> /home/ivan/personal/robotics_ros2/robotics_programming/install/nav2_mobile_robot/share/nav2_mobile_robot/launch

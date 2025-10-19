@@ -1,1 +1,2 @@
-/home/ivan/personal/robotics_ros2/robotics_programming/build/usb_cam_launch/ament_cmake_environment_hooks/local_setup.dsv
+source;share/usb_cam_launch/environment/ament_prefix_path.sh
+source;share/usb_cam_launch/environment/path.sh

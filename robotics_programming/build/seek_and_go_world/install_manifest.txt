@@ -1,0 +1,15 @@
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/ament_index/resource_index/package_run_dependencies/seek_and_go_world
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/ament_index/resource_index/parent_prefix_path/seek_and_go_world
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/environment/ament_prefix_path.sh
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/environment/ament_prefix_path.dsv
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/environment/path.sh
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/environment/path.dsv
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/local_setup.bash
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/local_setup.sh
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/local_setup.zsh
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/local_setup.dsv
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/package.dsv
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/ament_index/resource_index/packages/seek_and_go_world
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/cmake/seek_and_go_worldConfig.cmake
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/cmake/seek_and_go_worldConfig-version.cmake
+/home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/package.xml

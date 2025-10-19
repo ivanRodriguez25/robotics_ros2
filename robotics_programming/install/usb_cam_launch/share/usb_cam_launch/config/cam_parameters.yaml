@@ -1,1 +1,9 @@
-/home/ivan/personal/robotics_ros2/robotics_programming/src/usb_cam_launch/config/cam_parameters.yaml
+/**:
+  ros__parameters:
+    camera_name: 'camera'
+    image_width: 640
+    image_height: 480
+    framerate: 120.0
+    pixel_format: 'mjpeg2rgb'
+    io_method: 'mmap'
+    video_device: '/dev/video0'
