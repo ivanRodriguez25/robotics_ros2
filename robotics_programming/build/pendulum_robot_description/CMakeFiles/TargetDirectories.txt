@@ -1,0 +1,9 @@
+/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description/CMakeFiles/uninstall.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description/CMakeFiles/pendulum_robot_description_uninstall.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description/CMakeFiles/test.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description/CMakeFiles/edit_cache.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description/CMakeFiles/rebuild_cache.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description/CMakeFiles/list_install_components.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description/CMakeFiles/install.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description/CMakeFiles/install/local.dir
+/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description/CMakeFiles/install/strip.dir

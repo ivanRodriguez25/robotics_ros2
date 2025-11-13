@@ -1,0 +1,42 @@
+[0.421s] Invoking command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ivan/personal/robotics_ros2/robotics_programming/src/pendulum_robot_description -DCMAKE_INSTALL_PREFIX=/home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description
+[0.671s] -- The C compiler identification is GNU 11.4.0
+[1.001s] -- The CXX compiler identification is GNU 11.4.0
+[1.232s] -- Detecting C compiler ABI info
+[1.356s] -- Detecting C compiler ABI info - done
+[1.362s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.363s] -- Detecting C compile features
+[1.364s] -- Detecting C compile features - done
+[1.370s] -- Detecting CXX compiler ABI info
+[1.520s] -- Detecting CXX compiler ABI info - done
+[1.529s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.529s] -- Detecting CXX compile features
+[1.530s] -- Detecting CXX compile features - done
+[1.537s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.731s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.898s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.985s] -- Added test 'lint_cmake' to check CMake code style
+[1.987s] -- Added test 'xmllint' to check XML markup files
+[1.990s] -- Configuring done
+[1.993s] -- Generating done
+[1.996s] -- Build files have been written to: /home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description
+[2.000s] Invoked command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ivan/personal/robotics_ros2/robotics_programming/src/pendulum_robot_description -DCMAKE_INSTALL_PREFIX=/home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description
+[2.004s] Invoking command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description -- -j12 -l12
+[2.040s] Invoked command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description -- -j12 -l12
+[2.043s] Invoking command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description
+[2.048s] -- Install configuration: ""
+[2.048s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/ament_index/resource_index/package_run_dependencies/pendulum_robot_description
+[2.048s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/ament_index/resource_index/parent_prefix_path/pendulum_robot_description
+[2.048s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/environment/ament_prefix_path.sh
+[2.049s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/environment/ament_prefix_path.dsv
+[2.049s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/environment/path.sh
+[2.049s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/environment/path.dsv
+[2.049s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/local_setup.bash
+[2.050s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/local_setup.sh
+[2.050s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/local_setup.zsh
+[2.050s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/local_setup.dsv
+[2.050s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/package.dsv
+[2.050s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/ament_index/resource_index/packages/pendulum_robot_description
+[2.050s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/cmake/pendulum_robot_descriptionConfig.cmake
+[2.051s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/cmake/pendulum_robot_descriptionConfig-version.cmake
+[2.051s] -- Installing: /home/ivan/personal/robotics_ros2/robotics_programming/install/pendulum_robot_description/share/pendulum_robot_description/package.xml
+[2.055s] Invoked command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/personal/robotics_ros2/robotics_programming/build/pendulum_robot_description

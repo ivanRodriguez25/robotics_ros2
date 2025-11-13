@@ -1,0 +1,20 @@
+[0.418s] Invoking command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/seek_and_go_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/personal/robotics_ros2/robotics_programming/build/seek_and_go_world -- -j12 -l12
+[0.879s] Invoked command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/seek_and_go_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/personal/robotics_ros2/robotics_programming/build/seek_and_go_world -- -j12 -l12
+[0.891s] Invoking command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/seek_and_go_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/personal/robotics_ros2/robotics_programming/build/seek_and_go_world
+[0.902s] -- Install configuration: ""
+[0.903s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/ament_index/resource_index/package_run_dependencies/seek_and_go_world
+[0.905s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/ament_index/resource_index/parent_prefix_path/seek_and_go_world
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/environment/ament_prefix_path.sh
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/environment/ament_prefix_path.dsv
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/environment/path.sh
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/environment/path.dsv
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/local_setup.bash
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/local_setup.sh
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/local_setup.zsh
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/local_setup.dsv
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/package.dsv
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/ament_index/resource_index/packages/seek_and_go_world
+[0.907s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/cmake/seek_and_go_worldConfig.cmake
+[0.908s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/cmake/seek_and_go_worldConfig-version.cmake
+[0.908s] -- Up-to-date: /home/ivan/personal/robotics_ros2/robotics_programming/install/seek_and_go_world/share/seek_and_go_world/package.xml
+[0.960s] Invoked command in '/home/ivan/personal/robotics_ros2/robotics_programming/build/seek_and_go_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ivan/personal/robotics_ros2/robotics_programming/build/seek_and_go_world

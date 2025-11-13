@@ -1,0 +1,8 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"pole_link" [label="pole_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "joint_base_pole" [label="xyz: 0.1 0 1.95 \nrpy: 0.1 -0 0"]
+"joint_base_pole" -> "pole_link"
+}
